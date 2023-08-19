@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<main>
+  	<nav>
+    	<p>Cantidad de cuartos:</p>
+      <input type="number" id="rooms">
+      <p>Metros cuadrados</p>
+      <div class="size">
+        <div class="col">
+          <label>desde:</label>
+          <input type="number" id="from">
+        </div>
+        <div class="col">
+          <label>hasta:</label>
+          <input type="number" id="to">
+        </div>
+      </div>
+    	<button id="btnSearch">Buscar</button>
+    </nav>
+		<section>
+      <h1 class="title-products"></h1>
+      <div class="products">
+      </div>
+    </section>
+	</main>
+	<script src="assets/script/index.js"></script>
+</body>
+</html>
